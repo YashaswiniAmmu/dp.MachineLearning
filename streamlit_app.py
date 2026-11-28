@@ -37,11 +37,11 @@ data=('island',island,
       'gender',gender)
 input_df=pd.DataFrame(data,index=[0])
 input_penguins=pd.concat([input_df,X],axis=0)
-with st.expander('Input features')
- st.write('**Input penquin**')
- input_df
- st.write('**Combined penguin data**')
- input_penguins
+with st.expander('Input features'):
+  st.write('**Input penquin**')
+  input_df
+  st.write('**Combined penguin data**')
+  input_penguins
 
   
   
